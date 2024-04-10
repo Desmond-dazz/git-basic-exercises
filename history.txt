@@ -1,0 +1,500 @@
+  158  claer
+  159  clear
+  160  clear
+  161  git branch
+  162  git merge milkshake-flavours
+  163  git log
+  164  clear
+  165  ls
+  166  clear
+  167  git merge history
+  168  ls
+  169  clear
+  170  git checkout history
+  171  clear
+  172  git branch
+  173  git merge history
+  174  git status
+  175  cat README.md 
+  176  nano README.md 
+  177  git add README.md 
+  178  claer
+  179  claer
+  180  clear
+  181  git status
+  182  git commit -m "Resolved merge conflicts"
+  183  claer
+  184  clear
+  185  ls
+  186  claer
+  187  git log
+  188  clear
+  189  git remote add origin https://github.com/Desmond-dazz/git-basic-exercises.git
+  190  git branch -M main
+  191  git push -u origin main
+  192  cd ..
+  193  clear
+  194  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  195  cd a-repo-to-clone/
+  196  clear
+  197  git branch
+  198  git log
+  199  clear
+  200  git branch -a
+  201  git checkout a-branch-with-small-changes
+  202  ls
+  203  clear
+  204  git log
+  205  clear
+  206  git remote -v
+  207  cd ..
+  208  cd git-basic-exercises/
+  209  git log
+  210  clear
+  211  cd
+  212  ls
+  213  clear
+  214  mkdir this-will-be-another-repo
+  215  cd this-will-be-another-repo/
+  216  git init
+  217  ls -a
+  218  clear
+  219  touch README.md
+  220  ls
+  221  git status
+  222  git add README.md 
+  223  clear
+  224  clear
+  225  git status
+  226  git commit -m "initial commit"
+  227  git status
+  228  git log
+  229  clear
+  230  cd ~Desktop/"Umuzi Bootcamp"
+  231  cd ~Desktop
+  232  clear
+  233  cd ..
+  234  cd Desktop
+  235  cd "Umuzi Bootcamp"
+  236  clear
+  237  ls
+  238  cd git-basic-exercises/
+  239  clear
+  240  git log
+  241  clear
+  242  cd Desktop
+  243  clear
+  244  ls
+  245  cd "Umuzi Bootcamp"
+  246  clear
+  247  ls
+  248  cd git-basic-exercises/
+  249  clear
+  250  git log
+  251  clear
+  252  ls
+  253  touch ignore-me.db
+  254  git status
+  255  nano .gitignore
+  256  clear
+  257  git status
+  258  mkdir large-directory-that-should-be-local-only
+  259  clear
+  260  ls
+  261  cd large-directory-that-should-be-local-only/
+  262  ls
+  263  nano README.md
+  264  cd ..
+  265  git status
+  266  clear
+  267  nano .gitigore
+  268  ls
+  269  clear
+  270  ls
+  271  ls -a
+  272  cat .gitignore
+  273  clear
+  274  nano .gitignore
+  275  git status
+  276  git add .gitignore 
+  277  git commit -m "added .gitignore"
+  278  git status
+  279  clear
+  280  git push origin main
+  281  branch
+  282  git branch
+  283  git push -set-upstream origin main
+  284  git push --set-upstream origin main
+  285  clear
+  286  git branch
+  287  git checkout milkshake-flavours
+  288  clear
+  289  ls
+  290  git push origin milkshake-flavours
+  291  git checkout history
+  292  clear
+  293  git push origin history
+  294  git checkout main
+  295  ls
+  296  clear
+  297  cd ..
+  298  ls
+  299  cd level_1_coding_challenges
+  300  clear
+  301  ls
+  302  cd Leve_1_coding_challenges/
+  303  sl
+  304  clear
+  305  ls
+  306  code task1.js
+  307  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  308  ls
+  309  git checkout task/1
+  310  clear
+  311  git status
+  312  git add task1.js
+  313  git status
+  314  clear
+  315  git log
+  316  clear
+  317  git diff
+  318  clear
+  319  git status
+  320  git commit -m "I made a few changes (reduced my code and repetition)."
+  321  git status
+  322  clear
+  323  git log
+  324  clear
+  325  git push origin task/1
+  326  git branch
+  327  cd ..
+  328  ls
+  329  code task2.js
+  330  clear
+  331  git checkout task/2
+  332  clear
+  333  ls
+  334  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  335  clear
+  336  git checkout task/2
+  337  ls
+  338  code task2.js
+  339  git status
+  340  git add task2.js
+  341  clear
+  342  git status
+  343  git commit -m "I corrected my code (simplified and removed comments)."
+  344  clear
+  345  git status
+  346  git log
+  347  clear
+  348  git push origin task/2
+  349  cd ..
+  350  clear
+  351  ls
+  352  task3.js
+  353  code task3.js
+  354  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  355  ls
+  356  git checkout tast/3
+  357  git checkout task/3
+  358  clear
+  359  ls
+  360  code task3.js
+  361  ls
+  362  git status
+  363  git add task3.js
+  364  clear
+  365  git status
+  366  git restore --staged tast3.js
+  367  git status
+  368  git restore --staged task3.js
+  369  clear
+  370  git status
+  371  git add task3.js
+  372  clear
+  373  git status
+  374  git commit -m "I removed comments and simplified my code."
+  375  git status
+  376  clear
+  377  git log
+  378  clear
+  379  git push origin task/3
+  380  git checkout task/4
+  381  ls
+  382  clear
+  383  code task4.js
+  384  git status
+  385  git diff
+  386  git diff --staged
+  387  git diff
+  388  clear
+  389  git diff --staged
+  390  git status
+  391  git add task4.js
+  392  git status
+  393  clear
+  394  git commit -m "I removed comments."
+  395  clear
+  396  git log
+  397  clear
+  398  git push origin task/4
+  399  cd ..
+  400  ls
+  401  code task1.js
+  402  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  403  code task4.js
+  404  git checkout task/1
+  405  code task1.js
+  406  clear
+  407  git status
+  408  git diff
+  409  clear
+  410  git status
+  411  git add task1.js
+  412  git status
+  413  clear
+  414  git commit -m "I corrected my logic error and optimized my code."
+  415  git status
+  416  git log
+  417  clear
+  418  git commit
+  419  clear
+  420  git log
+  421  clear
+  422  git push orign task/1
+  423  git push origin task/1
+  424  cd ..
+  425  ls
+  426  code task3.js
+  427  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  428  clear
+  429  ls
+  430  git checkout task/3
+  431  clear
+  432  ls
+  433  code task3.js
+  434  git status
+  435  git add task3.js
+  436  clear
+  437  git status
+  438  git commit -m "I corrected my variables."
+  439  git log
+  440  clear
+  441  git diff
+  442  clear
+  443  ls
+  444  git push origin task/3
+  445  clear
+  446  cd ..
+  447  ls
+  448  code task5.js
+  449  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  450  git checkout task/5
+  451  clear
+  452  ls
+  453  code task5.js
+  454  ls
+  455  git status
+  456  git add task5.js
+  457  clear
+  458  git status
+  459  git commit -m "I made my code efficient."
+  460  clear
+  461  git log
+  462  git push origin task/5
+  463  cd ..
+  464  ls
+  465  clear
+  466  ls
+  467  code task6.js
+  468  code task6.js
+  469  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  470  git checkout task/6
+  471  ls
+  472  code task6.js
+  473  clear
+  474  git status
+  475  git add task6.js
+  476  git status
+  477  clear
+  478  git status
+  479  git restore --staged task6.js
+  480  git status
+  481  git status
+  482  clear
+  483  git add task6.js 
+  484  clear
+  485  git status
+  486  git commit -m "Changes made (printing when condition is met, used const for constance variable and commented on line 2)."
+  487  clear
+  488  git status
+  489  clear
+  490  git log
+  491  clear
+  492  git push origin task/6
+  493  clear
+  494  cd ..
+  495  ls
+  496  code task7.js
+  497  cd desktop
+  498  ls
+  499  cd "Umuzi Bootcamp"
+  500  ls
+  501  cd Desktop
+  502  ls
+  503  cd "Umuzi Bootcamp"
+  504  clear
+  505  ls
+  506  cd Level_1_coding_challenges
+  507  cd Level_1coding_challenges/
+  508  claer
+  509  clear
+  510  ls
+  511  cd Leve_1_coding_challenges/
+  512  ls
+  513  code task7.js
+  514  cd Desmond-Makhubele-219-level-1-programming-katas-javascript/
+  515  git checkout task/7
+  516  clear
+  517  ls
+  518  code task7.js
+  519  git status
+  520  git add task7.js
+  521  clear
+  522  git status
+  523  git commit -m "I used comments to explain code logic that may be difficult to understand and used const for constant variable."
+  524  clear
+  525  git log
+  526  git push origin task/7
+  527  cd ..
+  528  clear
+  529  cd ..
+  530  ls
+  531  cd "Beginning Bash"
+  532  clear
+  533  ls
+  534  cd..
+  535  cd ..
+  536  clear
+  537  ls
+  538  cd git-basic-exercises/
+  539  clear
+  540  ls
+  541  git merge history
+  542  ls
+  543  git checkout history
+  544  ls
+  545  git checkout main
+  546  ls
+  547  clear
+  548  git checkout history
+  549  ls
+  550  cat history.txt
+  551  clear
+  552  git status
+  553  git branch
+  554  git checkout milk-flavours
+  555  git checkout milkshake-flavours
+  556  git status
+  557  clear
+  558  git log
+  559  git checkout 9450e2d00be786d5679168e239990fc8cb993c96
+  560  clear
+  561  ls
+  562  cat README.md
+  563  cat milkshakes.md 
+  564  clear
+  565  git checkout history
+  566  ls
+  567  cat README.md 
+  568  cat history
+  569  cat history.txt
+  570  clear
+  571  ls
+  572  git checkout main
+  573  git merge history
+  574  clear
+  575  git push origin main
+  576  git branch
+  577  git merge milkshake-flavours
+  578  git status
+  579  clear
+  580  git branch
+  581  git history
+  582  git checkout history
+  583  git status
+  584  git checkout main
+  585  clear
+  586  git status
+  587  git log
+  588  clear
+  589  git merge history
+  590  clear
+  591  cd ..
+  592  cd git-basic-exercises
+  593  clear
+  594  git status
+  595  clear
+  596  git init
+  597  touch README.md
+  598  ls
+  599  git status
+  600  git add README.md 
+  601  clear
+  602  git status
+  603  git commit -m "initial commit"
+  604  clear
+  605  nano README.md 
+  606  git status
+  607  cat README.md 
+  608  clear
+  609  git status
+  610  gid add README.md 
+  611  git add README.md 
+  612  clear
+  613  git status
+  614  git commit -m "second commit"
+  615  clear
+  616  git log
+  617  ls
+  618  nano README.md 
+  619  clear
+  620  git status
+  621  git add README.md 
+  622  git status
+  623  clear
+  624  git commit -m "third commit"
+  625  clear
+  626  git log
+  627  git checkout -b milkshake-flavours
+  628  clear
+  629  ls
+  630  clear
+  631  nano milkshakes.md
+  632  cat milkshakes.md 
+  633  clear
+  634  ls
+  635  git status
+  636  git add milkshakes.md 
+  637  clear
+  638  git status
+  639  git status
+  640  git commit -m "added initial flavours"
+  641  clear
+  642  git status
+  643  clear
+  644  git clear
+  645  clear
+  646  git status
+  647  git log
+  648  clear
+  649  git checkout main
+  650  ls
+  651  git checkout -b history
+  652  clear
+  653  git branch
+  654  git log
+  655  clear
+  656  ls
+  657  history > history.txt
